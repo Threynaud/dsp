@@ -37,7 +37,9 @@ import sklearn
 
 Did you install Python 2 or 3? Why? How can you check the version of Python installed if you happen to be on an unfamiliar computer?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+Python 3 because I am used to it and I like to use lazy evaluation whenever I can, in particular when I am working with heavy datasets. 
+
+Python -V return the version of Python installed on the computer.
 
 ---
 
