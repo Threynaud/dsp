@@ -31,7 +31,7 @@ Both Emacs and vim have built-in interactive tutorials that you can try.
 
 What terminal editor will you use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I will use Vim because I used it several times and I am more familiar with it than with emacs.
 
 ---
 
@@ -61,6 +61,14 @@ We will also use Jupyter (IPython) notebooks, but this does not remove the need 
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+I will use Sublime which I find very user friendly and very powerful at the same time. The customization possibilities it offers are unlimited and the package control allow you to use some powerful tools without spending too much configuring them like linters. 
 
+⌘ + ] , ⌘ + [  to indent an unindent are the most useful shortcuts in particular for Python. 
+⌘ + ⌫ to delete to beginning of line.
+⌃ + E to move to the end of line.
+⌃ + ⇧ + K to delete line.
+⌘ + F to find.
+⌘ + B to execute the code.
+
+The package control and the configuration json files are the 2 main ways to customize the editor.
 ---
