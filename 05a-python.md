@@ -34,7 +34,24 @@ The keys of a dictionnary must be immutable. Thus only tuples will work as keys 
 
 How are Python lists and sets similar and different? Give examples of using both. How does performance compare between lists and sets for finding an element. Why?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> |        List       |         Set         |
+|:-----------------:|:-------------------:|
+|    Keeps order    |  Doesn't keep order |
+|    Every types of  items    | Only hashable items |
+| Allows duplicates |  Forbids duplicates |
+<br>
+When it comes to checking if an element is in the given structure, sets are much faster than list. Indeed, they are implemented using hash tables in which the time complexity of finding an element is O(1) (constant time) while it is O(n) for a list (proportional to its size).
+<br>
+```
+l = [1, 3, 4, 8, 3, 1, 12, 4]
+s = set(l)
+print l
+print s
+```
+```
+[1, 3, 4, 8, 3, 1, 12, 4]
+{1, 3, 4, 8}
+```
 
 ---
 
