@@ -135,11 +135,24 @@ Edit the 7 functions in [q6_strings.py](python/q6_strings.py)
 26 tests in 8 items.
 26 passed and 0 failed.
 Test passed.
-``
+```
 ---
 
 ###Q7. Lists
 Edit the 5 functions in [q7_lists.py](python/q7_lists.py)
+>>
+```
+5 items passed all tests:
+   3 tests in q7_lists.front_x
+   3 tests in q7_lists.linear_merge
+   3 tests in q7_lists.match_ends
+   4 tests in q7_lists.remove_adjacent
+   3 tests in q7_lists.sort_last
+16 tests in 6 items.
+16 passed and 0 failed.
+Test passed.
+```
+
 
 ---
 
