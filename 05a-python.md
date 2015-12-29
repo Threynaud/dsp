@@ -59,7 +59,22 @@ print s
 
 Describe Python's `lambda`. What is it, and what is it used for? Give at least one example, including an example of using a `lambda` in the `key` argument to `sorted`.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> `lambda` is a simple way in Python to construct throaway functions. <br>
+For instance, to sort a list of people by age:
+```
+people_list = [
+("thomas", 24, "French", "M"),
+("lisa", 22, "German", "F"),
+("andrew", 25, "English", "M")
+         ]
+sorted (people_list, key=lambda people: people[1])
+```
+```
+[('lisa', 22, 'German', 'F'),
+ ('thomas', 24, 'French', 'M'),
+ ('andrew', 25, 'English', 'M')]
+ ```
+
 
 ---
 
