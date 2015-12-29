@@ -82,7 +82,8 @@ sorted (people_list, key=lambda people: people[1])
 
 Explain list comprehensions. Give examples and show equivalents with `map` and `filter`. How do their capabilities compare? Also demonstrate set comprehensions and dictionary comprehensions.
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> List comprehension is a concpt that is used to construct list in a very natural and simple way instead of using `for`and `if`statements.<br>
+See `05a-python/Q4.ipynb` for the examples.
 
 ---
 
@@ -97,7 +98,7 @@ date_start = '01-02-2013'
 date_stop = '07-28-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 937
 
 b.
 ```
@@ -105,7 +106,7 @@ date_start = '12312013'
 date_stop = '05282015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE (answer will be in number of days)
+>> 513
 
 c.
 ```
@@ -113,7 +114,7 @@ date_start = '15-Jan-1994'
 date_stop = '14-Jul-2015'
 ```
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE  (answer will be in number of days)
+>> 7850
 
 Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
