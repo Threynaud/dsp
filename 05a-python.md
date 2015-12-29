@@ -122,7 +122,20 @@ Place code in this file: [q5_datetime.py](python/q5_datetime.py)
 
 ###Q6. Strings
 Edit the 7 functions in [q6_strings.py](python/q6_strings.py)
-
+>>
+```
+7 items passed all tests:
+   4 tests in q6_strings.both_ends
+   4 tests in q6_strings.donuts
+   4 tests in q6_strings.fix_start
+   3 tests in q6_strings.front_back
+   4 tests in q6_strings.mix_up
+   4 tests in q6_strings.not_bad
+   3 tests in q6_strings.verbing
+26 tests in 8 items.
+26 passed and 0 failed.
+Test passed.
+``
 ---
 
 ###Q7. Lists
