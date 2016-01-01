@@ -42,7 +42,6 @@ This data is available in this file:  [faculty.csv](python/faculty.csv)
 
 ####Q5.  Write email addresses from Part I to csv file
 
-Place your code in this file: [advanced_python_csv.py](python/advanced_python_csv.py)
 
 The emails.csv file you create should be added and committed to your forked repository.
 
@@ -52,6 +51,8 @@ bellamys@mail.med.upenn.edu
 warren@upenn.edu
 bryanma@upenn.edu
 ```
+
+>> See [Advanced_python.ipynb](python/Advanced_python.ipynb)
 
 ---
 
@@ -72,7 +73,15 @@ faculty_dict = { 'Ellenberg': [\
 ```
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>>
+```
+('Ross', [' PhD', 'Assistant Professor', 'michross@upenn.edu']),
+ ('Ellenberg',
+  [[' Ph.D.', 'Professor', 'sellenbe@upenn.edu'],
+   [' Ph.D.', 'Professor', 'jellenbe@mail.med.upenn.edu']]),
+ ('Bellamy', [' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu'])
+ ```
+
 
 ####Q7.  The previous dictionary does not have the best design for keys.  Create a new dictionary with keys as:
 
@@ -87,13 +96,27 @@ professor_dict = {('Susan', 'Ellenberg'): ['Ph.D.', 'Professor', 'sellenbe@upenn
 
 Print the first 3 key and value pairs of the dictionary:
 
->> REPLACE THIS WITH YOUR RESPONSE
+>>
+```
+(('Knashawn H.', 'Morales'),
+  [' Sc.D.', 'Associate Professor', 'knashawn@mail.med.upenn.edu']),
+ (('Yenchih', 'Hsu'),
+  [' Ph.D.', 'Assistant Professor', 'hsu9@mail.med.upenn.edu']),
+ (('A. Russell', 'Localio'),
+  [' JD MA MPH MS PhD', 'Associate Professor', 'rlocalio@upenn.edu'])
+```
+
 
 ####Q8.  It looks like the current dictionary is printing by first name.  Sort by last name and print the first 3 key and value pairs.
 
->> REPLACE THIS WITH YOUR RESPONSE
-
-Place your code in this file: [advanced_python_dict.py](python/advanced_python_dict.py)
+>>
+```
+(('Scarlett L.', 'Bellamy'),
+  [' Sc.D.', 'Associate Professor', 'bellamys@mail.med.upenn.edu']),
+ (('Warren B.', 'Bilker'), ['Ph.D.', 'Professor', 'warren@upenn.edu']),
+ (('Matthew W', 'Bryan'),
+  [' PhD', 'Assistant Professor', 'bryanma@upenn.edu'])
+```
 
 ---
 
